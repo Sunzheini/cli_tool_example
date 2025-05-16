@@ -3,6 +3,18 @@ import aiohttp
 from functools import lru_cache
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 class WebScraper:
     def __init__(self, max_concurrency=5):
         self.max_concurrency = max_concurrency
